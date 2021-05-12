@@ -1,0 +1,69 @@
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(230, 214, 214);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+body {
+  font-family: Lato, Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
+  background-color: #333;
+  text-align: center;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  background-color: #fff;
+  color: #666;
+}
+.content {
+  margin: 0 auto;
+  padding: 5% 20vw;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  text-align: left;
+}
+.content p {
+  margin-bottom: 40px;
+}
+header {
+  position: relative;
+  height: 32vw;
+}
+.ct-hd {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: 80%;
+  background-position: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
